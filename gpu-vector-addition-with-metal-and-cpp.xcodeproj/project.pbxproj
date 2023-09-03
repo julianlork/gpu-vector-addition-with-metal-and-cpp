@@ -11,6 +11,7 @@
 		5B98E0A52AA4938D00EA2AEA /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B98E0A42AA4938D00EA2AEA /* Metal.framework */; };
 		5B98E0A72AA4939400EA2AEA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B98E0A62AA4939400EA2AEA /* QuartzCore.framework */; };
 		5B98E0A92AA4939B00EA2AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B98E0A82AA4939B00EA2AEA /* Foundation.framework */; };
+		5B98E0AC2AA4940500EA2AEA /* AdditionShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5B98E0AB2AA4940500EA2AEA /* AdditionShader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		5B98E0A42AA4938D00EA2AEA /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		5B98E0A62AA4939400EA2AEA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5B98E0A82AA4939B00EA2AEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B98E0AB2AA4940500EA2AEA /* AdditionShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = AdditionShader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		5B98E09B2AA4924C00EA2AEA /* gpu-vector-addition-with-metal-and-cpp */ = {
 			isa = PBXGroup;
 			children = (
+				5B98E0AA2AA493F600EA2AEA /* src */,
 				5B98E09C2AA4924C00EA2AEA /* main.cpp */,
 			);
 			path = "gpu-vector-addition-with-metal-and-cpp";
@@ -80,6 +83,14 @@
 				5B98E0A42AA4938D00EA2AEA /* Metal.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B98E0AA2AA493F600EA2AEA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5B98E0AB2AA4940500EA2AEA /* AdditionShader.metal */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B98E0AC2AA4940500EA2AEA /* AdditionShader.metal in Sources */,
 				5B98E09D2AA4924C00EA2AEA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
