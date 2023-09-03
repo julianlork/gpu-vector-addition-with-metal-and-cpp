@@ -36,6 +36,7 @@
 		5B98E0AB2AA4940500EA2AEA /* AdditionShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = AdditionShader.metal; sourceTree = "<group>"; };
 		5B98E0AD2AA494A100EA2AEA /* AdditionWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AdditionWrapper.cpp; sourceTree = "<group>"; };
 		5B98E0AE2AA494A100EA2AEA /* AdditionWrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AdditionWrapper.hpp; sourceTree = "<group>"; };
+		5B98E0B02AA4A5A200EA2AEA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		5B98E0902AA4924C00EA2AEA = {
 			isa = PBXGroup;
 			children = (
+				5B98E0B02AA4A5A200EA2AEA /* .gitignore */,
 				5B98E09B2AA4924C00EA2AEA /* gpu-vector-addition-with-metal-and-cpp */,
 				5B98E09A2AA4924C00EA2AEA /* Products */,
 				5B98E0A32AA4938D00EA2AEA /* Frameworks */,
