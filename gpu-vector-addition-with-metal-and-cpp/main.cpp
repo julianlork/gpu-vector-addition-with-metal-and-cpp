@@ -28,8 +28,8 @@ int main(int argc, const char * argv[]) {
     
     NS::AutoreleasePool *pReleasePool = NS::AutoreleasePool::alloc()->init();
     
-    float arrayA[] = {1, 2.0, 3.0};
-    float arrayB[] = {1, 2.0, 3.0};
+    float arrayA[] = {1.0, 2.0, 3.0};
+    float arrayB[] = {1.0, 2.0, 3.0};
     float *pResult;
     
     int arrayLength = sizeof(arrayA) / sizeof(float);
