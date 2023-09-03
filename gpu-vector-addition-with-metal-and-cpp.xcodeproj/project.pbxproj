@@ -12,6 +12,7 @@
 		5B98E0A72AA4939400EA2AEA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B98E0A62AA4939400EA2AEA /* QuartzCore.framework */; };
 		5B98E0A92AA4939B00EA2AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B98E0A82AA4939B00EA2AEA /* Foundation.framework */; };
 		5B98E0AC2AA4940500EA2AEA /* AdditionShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5B98E0AB2AA4940500EA2AEA /* AdditionShader.metal */; };
+		5B98E0AF2AA494A100EA2AEA /* AdditionWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B98E0AD2AA494A100EA2AEA /* AdditionWrapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		5B98E0A62AA4939400EA2AEA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5B98E0A82AA4939B00EA2AEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B98E0AB2AA4940500EA2AEA /* AdditionShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = AdditionShader.metal; sourceTree = "<group>"; };
+		5B98E0AD2AA494A100EA2AEA /* AdditionWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AdditionWrapper.cpp; sourceTree = "<group>"; };
+		5B98E0AE2AA494A100EA2AEA /* AdditionWrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AdditionWrapper.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				5B98E0AB2AA4940500EA2AEA /* AdditionShader.metal */,
+				5B98E0AD2AA494A100EA2AEA /* AdditionWrapper.cpp */,
+				5B98E0AE2AA494A100EA2AEA /* AdditionWrapper.hpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				5B98E0AC2AA4940500EA2AEA /* AdditionShader.metal in Sources */,
 				5B98E09D2AA4924C00EA2AEA /* main.cpp in Sources */,
+				5B98E0AF2AA494A100EA2AEA /* AdditionWrapper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
