@@ -12,3 +12,5 @@ https://developer.apple.com/documentation/metal/performing_calculations_on_a_gpu
 Getting started with Metal and C++ by Apple  
 https://developer.apple.com/metal/cpp/
 
+Program metal with C++ by Apple  
+https://developer.apple.com/videos/play/wwdc2022/10160/
