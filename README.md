@@ -6,7 +6,7 @@ This repository is a C++ port of Apple's tutorial *Performing Calculations on a 
 
 ## Resources
 
-Objective-C tutorial by Apple
+Objective-C tutorial by Apple  
 https://developer.apple.com/documentation/metal/performing_calculations_on_a_gpu
 
 Getting started with Metal and C++ by Apple  
