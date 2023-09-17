@@ -46,5 +46,6 @@ int main(int argc, const char * argv[]) {
     }
     
     pReleasePool->release();
+    
     return 0;
 }
