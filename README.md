@@ -1,5 +1,5 @@
 # gpu-vector-addition-with-metal-and-cpp
-Lookup project demonstrating how to perform gpu accelerated vector addition using C++ and Metal Shading Language (MSL).
+Lookup project demonstrating how to perform gpu accelerated vector addition using C++.
 
 ## Introduction
 This repository is a C++ port of Apple's tutorial *Performing Calculations on a GPU* originally written in Objective-C.
