@@ -1,5 +1,5 @@
 # gpu-vector-addition-with-metal-and-cpp
-Lookup project demonstrating how to perform gpu accelerated vector addition using C++.
+Implementation of a gpu accelerated vector addition.
 
 ## Introduction
 This repository is a C++ port of Apple's tutorial *Performing Calculations on a GPU* originally written in Objective-C and serves as a personal knowledge archive.
